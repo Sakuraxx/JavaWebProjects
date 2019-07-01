@@ -1,0 +1,341 @@
+/*-------------------header------------------------*/
+body {
+    background-color: #212529;
+}
+#header {
+    background-color: #343a40;
+    height: 60px;
+    width: 100%;
+}
+.v-center {
+    text-align: center;
+    line-height: 50px;
+}
+.header-title {
+    height: 50px;
+    width: 80px;
+    float: left;
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.header-select {
+    height: 50px;
+    width: 80px;
+    float: left;   
+    margin-left: 10px;
+}
+a:hover {
+    color: #E1D363;
+    text-decoration: none;
+}
+
+.header-mainpage {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.header-type {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.header-comment {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+/*右侧下拉菜单*/
+.div-dropmenu {
+    float: right;
+    margin-right: 50px;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+	color: #474036;
+	background-color: #F8EA21;
+}
+
+.dropdown-item{
+	width: 70%;
+}
+
+.dropdown-menu{
+	background-color: #212529e8;
+}
+
+.dropdown-menu a{
+	color: white;
+}
+
+.dropdown-menu .dropdown-divider{
+	background-color: #F8EA21;
+	border-top: 1px solid #F8EA21;
+}
+/*-------------------top------------------------*/
+#top {
+    height: 100px;
+    background-color: #F8EA21;
+    padding: 15px;
+    width: 100%;
+}
+.nav {
+    height: 70px;
+    width: 800px;
+    margin-left: 100px;
+}
+/*----------------------选电影--------------------------*/
+#select-movie {
+    height: 200px;
+    background-color: #343a40;
+    padding: 15px;
+}
+.title {
+    height: 30px;
+    width: 100px;
+    margin-left: 115px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.tags {
+    width: 750px;
+    color: aliceblue;
+    margin-left: 107px;
+    margin-top: 20px;
+}
+.tag {
+    display: none;
+}
+.change-background {
+    background-color: #E1D363 ;
+    border-radius: 10%;
+    padding: 2px 8px;
+}
+.tags ul li{
+    float: left;
+    margin: 8px 6px;
+    padding: 2px 8px;
+}
+.type{
+    display: inline-block;
+    padding: 2px 8px;
+}
+.tags ul {
+    list-style: none;
+}
+
+.tags ul li:hover{
+    background-color: rgb(231, 214, 214);
+    border-radius: 10%;
+}
+
+/* label {
+    margin: 8px 6px;
+    padding: 2px 8px;
+} */
+/* label:hover {
+    background-color: rgb(231, 214, 214);
+    border-radius: 10%;
+} */
+
+.active{
+    background-color: #E1D363;
+    color: #212529;
+}
+
+/*------------------------展示列表----------------------*/
+.movielists-ad {
+    background-color: #212529;
+}
+#movie-lists {
+    background-color: #212529;
+    padding: 15px;
+    float: left;
+}
+.sort {
+    width: 750px;
+    height: 50px;
+    color: aliceblue;
+    margin-left: 120px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: "黑体";
+}
+
+#hot-movie-content{
+    width: 800px;
+    margin-left: 115px;
+}
+
+#hot-movies .movie-item{
+	display: inline-block;
+    margin: 20px 15px;
+	float: left;
+	display:inline-block; 
+ 	vertical-align:top;
+
+}
+.item-cover img{
+	width: 90%;
+}
+.item-info{
+	background-color: #F8EA21;
+	width: 90%;
+	height: 40px;
+	color: black;
+}
+
+.item-name{
+	font-size: 20px;
+	font-family: "百度综艺";
+	font-weight: bold;
+	color: black;
+	display:inline;
+}
+
+.item-degree{
+	font-weight: none;
+	font-size: 12px;
+	background-color: #343a40;
+	color: white;
+	display:inline;
+	padding: 0 8px;
+	border-radius: 0.5rem;
+}
+
+.card-body{
+    background-color: #F8EA21;
+    height: 60px;
+    padding: 0px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.item-br{
+    clear: both;
+}
+/*固定图片大小*/
+img.card-img-top {
+    height: 235px;
+}
+.card-title {
+    display: block;
+    font-size: 10px;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 16px;
+    float: left;
+    overflow: hidden;
+    margin-left: 5px;
+}
+/* 电影详情弹窗 */
+.item-info-summary{
+	background-color: white;
+	position: absolute;
+	width: 150%;
+	left: 12.5rem;
+	top: 0rem;
+	margin: 0;
+	z-index: 1;
+	padding:1rem;
+	display: none;
+}
+.item-info-summary h4{
+	color: black;
+}
+.item-info-summary .item-tag{
+	padding: 0.2rem 0.5rem;
+	border-radius: 0.5rem;
+	color: #2a2a2ac9;
+	border: 1px solid #343a4066;
+	background-color: #f8ea2147;
+	margin: 0.25rem;
+	display: inline-block;
+}
+
+/*广告*/
+.ad {
+    height: 250px;
+    width: 250px;
+    background-color: #fff;
+    /*background-image: url("../img/ad.jpg");*/
+    float: left;
+    position: fixed;
+    left: 1000px;
+    top: 370px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 30px;
+    color: #F8EA21;
+}
+.ad-title {
+    height: 30px;
+    background-color: #343a40;
+}
+.close {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    float: right;
+}
+.page {
+    height: 60px;
+    width: 400px;
+    margin-left: 310px;
+    margin-top: 50px;
+}
+
+/* 分页 */
+.page{
+	position: relative;
+    padding: 2rem;
+    left: 40px;
+}
+.page-link{
+	color: black;
+}
+.page-link:hover{
+	color: black;
+}
+.page-item.active .page-link{
+	background-color: #343a40;
+	border:	#343a40;
+}
+
+.pre-page{
+	border-bottom-left-radius: 0.25rem;
+	border-top-left-radius: 0.25rem;
+}
+
+.next-page{
+	border-bottom-right-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+
+
+.disabled{
+	color: #6c757d;
+	background-color: #f3f3f3;
+}
+
+.disabled:hover{
+	color: #6c757d;
+}
+
+
+/*清除浮动*/
+/* 适应IE浏览器 使用 zoom:1 触发 hasLayout */
+.clearfix {
+    *zoom: 1;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+

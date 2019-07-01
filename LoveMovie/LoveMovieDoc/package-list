@@ -1,0 +1,6 @@
+com.love.movie.controller
+com.love.movie.mapper
+com.love.movie.model
+com.love.movie.service
+com.love.movie.service.impl
+com.love.movie.sql

@@ -1,0 +1,31 @@
+.movie-sum p{
+	color: #666667;
+}
+
+.degree-tag{
+	display: inline-block;
+	padding: 0rem 0.5rem;
+	border-radius: 0.5rem;
+	background-color: #343a40;
+	color: white !important;
+	margin-right: 2rem;
+}
+
+.media{
+	margin: 2rem 0;
+}
+
+#movie-info-card h5{
+	background-color: #343a40;
+	color: rgba(255,255,255,.5);
+	padding: 0.5rem 0.5rem;
+	border-radius: 0.5rem;
+}
+
+#movie-info-card .active{
+	color: white;
+}
+
+#movie-info-card h5 span:hover {
+	color: #F8EA21;
+}

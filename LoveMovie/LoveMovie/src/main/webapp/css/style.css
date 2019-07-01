@@ -1,0 +1,435 @@
+#content{
+	background-color:#212529;
+}
+/*——————————————————————————————————————————导航————————————————————————————————————*/
+.navbar-inverse .brand,.navbar-inverse .nav>li>a{
+	color: white;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover, a:hover {
+	color: #F8EA21;
+	text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color: #F8EA21;
+}
+
+.navbar-brand{
+	margin-left: 30px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+	color: #474036;
+	background-color: #F8EA21;
+}
+
+.dropdown-item{
+
+	width: 70%;
+}
+
+.dropdown-menu{
+	background-color: #212529e8;
+}
+
+.dropdown-menu a{
+	color: white;
+}
+
+.dropdown-menu .dropdown-divider{
+	background-color: #F8EA21;
+	border-top: 1px solid #F8EA21;
+}
+
+.btn-outline-success{
+	color: #F8EA21;
+	border-color:#F8EA21;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus{
+	box-shadow: 0 0 0 0.2rem rgba(248, 234, 33, 0.5);
+}
+
+.btn-outline-success:hover{
+	background-color: #F8EA21e8;
+	border-color:#F8EA21e8;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle{
+	background-color: #F8EA21e8;
+	border-color:#F8EA21e8;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus{
+	box-shadow: 0 0 0 0.2rem rgba(248, 234, 33, 0.5);
+}
+
+#regist-login{
+	margin: 0 40px;
+}
+
+#user-drop{
+	margin: 0 4.5rem;
+}
+
+
+/*——————————————————————————————————————————轮播————————————————————————————————————*/
+.carousel-item img{
+	height: 25rem;	
+}
+
+.carousel{
+	margin: 0;
+}
+
+
+/*——————————————————————————————————————————电影展示————————————————————————————————————*/
+
+/*#movie-selector{
+	background-color: #F8EA21;
+	height: 100px;
+}*/
+
+.selector{
+	background-color: #F8EA21;
+	height: 100px;
+}
+
+
+#main-badge{
+	font-size: 20px;
+	font-family: 黑体;
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	margin: 20px 20px;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.tag-list ul{
+	list-style: none;
+	margin: 0;
+	height:5.5rem;
+/*	width: 90rem; */
+
+
+}
+
+.tag-list ul li{
+	float: left;
+	display:inline-block; 
+ 	vertical-align:top;
+
+}
+
+#more-link{
+	float: right;
+	margin-right: 40px;
+	font-size:1.2rem;
+
+}
+
+.tag{
+	display: none;
+}
+
+.badge{
+	font-size: 0.75rem;
+	font-family: 黑体;
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	margin: 25px 20px;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+	font-weight: normal;
+	line-height: normal;
+	overflow: hidden;
+}
+
+.badge-yellow{
+	color: #474036;
+	background-color: #E1D363;
+	border: 1px solid #b3ab9b94;
+}
+
+.badge-active{
+	background-color: #343a40;
+	color: white;
+}
+
+*, ::after, ::before{
+	box-sizing: unset;
+}
+
+/*----------------------------热门电影列表————————————————————————————————*/
+a{
+	text-decoration: none;
+	color: white;
+	font-family: "黑体";
+}
+.my-hr{
+	height: 80px;
+	background-color: #343a40;
+	margin: 0;
+}
+
+.my-hr a{
+	display: inline-block;
+	font-size: 20px; 
+	margin: 25px 60px;
+}
+
+#hot-movie-content{
+	background-color: #212529;
+}
+
+#hot-movies{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+
+}
+
+#hot-movies .movie-item{
+	display: inline-block;
+	margin: 20px 6%;
+	float: left;
+	/*display:inline-block; */
+ 	vertical-align:top;
+ 	position: relative;
+
+}
+
+
+
+.item-cover img{
+	width: 90%;
+}
+/*.item-info{
+	background-color: #F8EA21;
+	width: 90%;
+	height: 40px;
+	color: black;
+}*/
+.item-br{
+	clear: both;
+}
+
+.item-name{
+	font-size: 1rem;
+	font-family: "百度综艺";
+	font-weight: bold;
+	color: black;
+	display:inline-block;
+	overflow: hidden;
+	/*height: 1.4rem;*/
+	line-height: 1.25rem;
+	height: 1.25rem;
+	width: 95%;
+	margin-bottom: 0;
+}
+
+.item-degree{
+	font-weight: none;
+	font-size: 12px;
+	background-color: #343a40;
+	color: white;
+	display:inline-block;
+	padding: 0 8px;
+	border-radius: 0.5rem;
+	line-height: 1rem;
+	padding-left: 0.5rem; 
+}
+
+.card-body{
+	background-color: #F8EA21;
+}
+
+.movie-info{
+	
+	height: 3rem;
+	padding: 1rem;
+}
+
+.card-img-top {
+    height: 17.25rem;
+}
+
+.item-info-summary{
+	background-color: white;
+	position: absolute;
+	width: 150%;
+	left: 12.5rem;
+	top: 0rem;
+	margin: 0;
+	z-index: 1;
+	padding:1rem;
+	display: none;
+
+}
+
+.item-info-summary h4{
+	color: black;
+
+}
+
+.item-info-summary .item-tag{
+	padding: 0.2rem 0.5rem;
+	border-radius: 0.5rem;
+	color: #2a2a2ac9;
+	border: 1px solid #343a4066;
+	background-color: #f8ea2147;
+	margin: 0.25rem;
+	display: inline-block;
+}
+
+/*_______________________________影评——————————————————————————————————————————*/
+#comments{
+	
+	width: 70%;
+	margin: 0 auto; 
+}
+
+#comments-content{
+	background-color: #212529;
+	padding: 2rem 0;
+}
+
+.comment-item{
+	width: 70%;
+	margin: 2rem auto; 
+}
+
+.media{
+	background-color:  #F8EA21;
+	border:1px white solid;
+	border-radius: 0.5rem;
+}
+.comment-cover{
+	display: inline-block;
+}
+
+.comment-cover img{
+	margin: 20% 10%;
+	width: 80%;
+
+}
+
+
+.comment-info{
+	width: 60%;
+	padding: 3%;
+}
+.media-heading a {
+	color: black;
+}
+
+#review-meta{
+	color: #666667e6;
+}
+
+#review-meta a{
+	color: black;
+}
+.btn-link{
+	color: black;
+}
+
+.btn-link:hover{
+	color: black;
+}
+/*==============================================================================*/
+#review-meta a img{
+	width: 2rem;
+	height: 2rem;
+}
+
+.action a{
+	color: white;
+	display: inline-block;
+	border-radius: 0.25rem;
+	padding:0 0.25rem;
+	border:1px solid #b3ab9b94;
+	background-color: #343a40;
+	margin: 0 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------翻页------------------------------------*/
+.page{
+	position: relative;
+	padding: 2rem;
+}
+.page-link{
+	color: black;
+}
+
+.page-link:hover{
+	color: black;
+}
+
+
+.page-item.active .page-link{
+	background-color: #343a40;
+	border:	#343a40;
+}
+
+
+.pre-page{
+	border-bottom-left-radius: 0.25rem;
+	border-top-left-radius: 0.25rem;
+}
+
+.next-page{
+	border-bottom-right-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+
+
+.disabled{
+	color: #6c757d;
+	background-color: #f3f3f3;
+}
+
+.disabled:hover{
+	color: #6c757d;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++=footer++++++++++++++++++++++++++++++++++++*/
+#copyright{
+	color: white;
+}
+
+#footer{
+	position: relative;
+}
+/*————————————————————————————————————————————————————————————————————————————————*/
+.v-center{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.h-center{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
